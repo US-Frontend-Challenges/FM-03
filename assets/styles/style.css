@@ -51,16 +51,19 @@ body {
     .card__tag {
       font-size: 14px;
       font-weight: 800;
+      line-height: 150%;
       padding: 4px 12px;
       background-color: var(--yellow);
       border-radius: 4px;
     }
     .card__published-date {
       font-size: 14px;
+      line-height: 150%;
     }
     .card__title {
       font-size: 24px;
       font-weight: 800;
+      line-height: 150%;
       text-decoration: none;
       color: var(--gray-950);
       transition: color 0.2s ease-in-out;
@@ -73,6 +76,7 @@ body {
     }
     .card__description {
       font-size: 16px;
+      line-height: 150%;
       color: var(--gray-500);
     }
   }
@@ -89,6 +93,7 @@ body {
     .card__author {
       font-size: 14px;
       font-weight: 800;
+      line-height: 150%;
     }
   }
 }
